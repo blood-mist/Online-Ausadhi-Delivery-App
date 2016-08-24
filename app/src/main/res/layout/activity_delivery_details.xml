@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dac.onlineausadhi.activities.DeliveryDetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/deliveredToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_colors"
+        android:theme="@style/ToolbarStyle"/>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/deliveredLists"
+        android:layout_below="@+id/deliveredToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Recently Delivered Items"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/deliveredLists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerDelivery"
+        android:padding="10dp"
+        android:scrollbars="none"/>
+
+</RelativeLayout>

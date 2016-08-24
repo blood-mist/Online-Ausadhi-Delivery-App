@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/cartToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_colors"
+        android:theme="@style/ToolbarStyle">
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_text"
+            android:background="@drawable/button_pressed_indicator"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/check"
+            android:textColor="@android:color/white"/>
+        </android.support.v7.widget.Toolbar>
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cartList"
+    android:layout_centerInParent="true"
+    android:nestedScrollingEnabled="true">
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dac.onlineausadhi.activities.RecentMedicinesActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/recentMedToolbar"
+        android:theme="@style/ToolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_colors">
+    </android.support.v7.widget.Toolbar>
+
+    <com.andexert.expandablelayout.library.ExpandableLayoutListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        />
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:id="@+id/reAdd"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:background="@drawable/edit_button_pressed"
+        android:clickable="true"
+        >
+        <TextView
+           android:id="@+id/reorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/fa_reorder"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dac.onlineausadhi.activities.UploadPrescriptionActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uploadToolbar"
+        android:background="@color/button_colors"
+        android:theme="@style/ToolbarStyle"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <Button
+            android:padding="10dp"
+            android:id="@+id/approveUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/button_pressed_indicator"
+            android:drawableLeft="@drawable/check"
+            android:text="@string/prescription_approve"
+            android:textColor="@android:color/white"
+            android:visibility="invisible" />
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:id="@+id/prescriptionImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="fill"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/prescription_sample" />
+
+    <LinearLayout
+        android:id="@+id/uploadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prescription_display"
+            android:textColor="@color/accent"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/uploadPrescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_pressed_indicator_2"
+            android:text="@string/upload_prescription_button"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/editLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:visibility="invisible">
+
+    <Button
+        android:id="@+id/editPrescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_pressed_indicator"
+        android:text="@string/prescription_edit"
+        android:textColor="@android:color/white"
+
+        />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

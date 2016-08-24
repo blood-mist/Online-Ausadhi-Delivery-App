@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/thirdFrag"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_login"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#CCFFFFFF"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/primary_dark"
+            android:text="@string/fa_trustworthy"
+
+
+            />
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REFILL SERVICE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/accent"
+            android:layout_gravity="center"
+            android:gravity="end"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/reminder"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark"
+                android:text="@string/fa_reminder"
+                android:layout_gravity="left"
+                />
+            <TextView
+                android:id="@+id/resend"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark"
+                android:text="@string/fa_no_resend"
+                android:layout_gravity="left"
+                />
+            <TextView
+                android:id="@+id/no_worry"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_dark"
+                android:text="@string/fa_no_worry"
+                android:layout_gravity="left"/>
+            </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
+

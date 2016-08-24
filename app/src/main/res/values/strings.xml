@@ -1,0 +1,180 @@
+<resources>
+    <!--Validation messages-->
+    <string name="app_name">Online Aushadhi</string>
+    <string name="field_empty">This field cannot be empty</string>
+
+    <string name="username">Please,enter your username</string>
+    <string name="email">Please, enter your email</string>
+    <string name="password">Please, enter password</string>
+    <string name="re_password">Please, re-enter password</string>
+    <string name="empty_current_password">Current Password field cannot be empty</string>
+    <string name="validation_username_length">Please, enter the username with at least 6 characters</string>
+    <string name="validation_password_length">Please, enter the password with at least 6 characters</string>
+    <string name="validation_success">Validation succeeded!</string>
+    <string name="valid_email">Please,enter a valid email address</string>
+    <string name="confirm_password">password should match with the password field</string>
+    <string name="phone_no">Please,enter your phone no.</string>
+    <string name="validation_phone_length">Please,enter a valid phone no.</string>
+    <string name="district">Please enter your district</string>
+    <string name="place">Please enter the name of your place</string>
+    <string name="reference">Please enter where did you hear about us</string>
+    <string name="remove_item">Are you sure you want to remove this item from your cart?</string>
+    <string name="no_order_history">You have not ordered any items yet.</string>
+
+    <!--terms & conditions-->
+    <string name="terms">Terms &#38; Conditions </string>
+
+
+    <!--Message Strings-->
+    <string name="check_email">A link has been sent to your email."\n\n"Please check your email to reset password.</string>
+
+    <string name="confirm_registration"> Thank You, "\n"Your profile has been successfully created."\n\n"An email confirmation will be sent to the registered email address you provided.</string>
+    <string name="changes_applied">Your change has been  applied.</string>
+    <string name="changes_not_applied">Your Changes could not be applied. Please try again later</string>
+    <string name="connection_failure">"No Internet Connection Detected,Please Check your Internet Settings"</string>
+    <string name="server_failure">"Connection To The Server Failed"</string>
+    <string name="readTimeOut">"Network Error : No Data Received."</string>
+    <string name="prescription_uploaded">Prescription Uploaded Successfully</string>
+    <string name="order_successful">Thank You!"\n"Your Order has been completed successfully."\n\n"You will recieve a confirmation call from us shortly.</string>
+    <!--Medicine Order form Validations-->
+    <string name="medicine_name">Please,enter a medicine name</string>
+    <string name="quantity">Please,specify the quantity of the ordered product</string>
+    <string name="prescription_not_set">*If You are ordering a Prescription medicine then please upload your prescription first.</string>
+    <string name="prescription_from_order">Click Here to upload Prescription</string>
+
+
+    <string name="prescription_display">*Uploading a Prescription is a must for Prescription Medication</string>
+    <string name="otc_display">*For OTC medication just fill the form below. No prescription required</string>
+
+    <!-- API URL-->
+
+    <string name="upload_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/uploadPrescription</string>
+    <string name="cart_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/order</string>
+    <string name="order_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/orderHistoryByMonth</string>
+    <string name="login_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/authenticate</string>
+    <string name="register_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/register</string>
+    <string name="medicine_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/orderHistoryBySalesID</string>
+    <string name="edit_profile">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/profileSetting</string>
+    <string name="edit_password">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/passwordSetting</string>
+    <string name="autocomplete_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/medicineName</string>
+    <string name="forgot_password_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/resetPassword</string>
+    <string name="logout_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/logout</string>
+    <string name="notify_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/notificationSetting</string>
+    <string name="notification_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/notification</string>
+    <string name="notification_delete_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/notificationDelete</string>
+    <string name="recent_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/orderRecentHistory</string>
+    <string name="notification_read_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/notificationRead</string>
+    <string name="refill_url">http://dac.com.np/onlineaushadhi/public/index.php/api/v1/getOrderNotification</string>
+    <string name="sharedPref">ApplicationPreference </string>
+
+    <!--<string name="upload_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/uploadPrescription</string>
+    <string name="cart_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/order</string>
+    <string name="order_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/orderHistoryByMonth</string>
+    <string name="login_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/authenticate</string>
+    <string name="register_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/register</string>
+    <string name="medicine_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/orderHistoryBySalesID</string>
+    <string name="edit_profile">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/profileSetting</string>
+    <string name="edit_password">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/passwordSetting</string>
+    <string name="autocomplete_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/medicineName</string>
+    <string name="forgot_password_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/resetPassword</string>
+    <string name="notify_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/notificationSetting</string>
+    <string name="logout_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/logout</string>
+    <string name="recent_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/orderRecentHistory</string>
+    <string name="notification_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/notification</string>
+    <string name="notification_delete_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/notificationDelete</string>
+    <string name="notification_read_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/notificationRead</string>
+    <string name="refill_url">http://192.168.0.126/onlineaushadhi/public/index.php/api/v1/getOrderNotification</string>
+    <string name="sharedPref">ApplicationPreference</string>-->
+
+    <!--Font Awesome Icons-->
+    <string name="fa_reorder">&#xf218; Re-order</string>
+    <string name="fa_order_history">&#xf1da;</string>
+    <string name="fa_icon_dashboard">&#xf0e4;</string>
+    <string name="fa_icon_notification">&#xf0a2;</string>
+    <string name="fa_icon_settings">&#xf085;</string>
+    <string name="fa_profile_edit">&#xf007; Edit Profile</string>
+    <string name="fa_password_edit">&#xf084; Edit Password</string>
+    <string name="fa_notification_edit">&#xf0f3; Notification</string>
+    <string name="fa_enquiry">&#xf27a; Make an enquiry</string>
+    <string name="fa_edit">&#xf044; edit</string>
+    <string name="fa_sign_out">&#xf08b; Sign Out</string>
+    <string name="fa_sign_in"> &#xf090; Sign Up</string>
+    <string name="fa_no_pharmacy">&#xf0a4; Save the hassle of going to pharmacy</string>
+    <string name="fa_fast_free">&#xf0a4; Fast and free cash on delivery</string>
+    <string name="fa_doorstep">&#xf0a4; Prescription drugs at your doorstep</string>
+    <string name="fa_high_quality">&#xf0a4; High quality medicines</string>
+    <string name="fa_confidentiality">&#xf0a4; Full confidentiality of customers</string>
+    <string name="fa_care">&#xf0a4; Highest Priority to our customers.</string>
+    <string name="fa_reminder">&#xf0a4; Automatically give you a refill reminder call</string>
+    <string name="fa_no_resend">&#xf0a4; No need of resending prescriptions</string>
+    <string name="fa_no_worry">&#xf0a4; No worries about running out of medicines</string>
+    <string name="fa_save_time">&#xf017;</string>
+    <string name="fa_trustworthy">&#xf00c;</string>
+    <string name="fa_refill">&#xf021;</string>
+    <string name="fa_sad">&#xf119;</string>
+
+    <!--TextView Labels-->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Sign In</string>
+    <string name="no_account">Don"\'"t have an account?" "</string>
+    <string name="signUp_name">Full Name</string>
+    <string name="signUp_title">Sign Up</string>
+    <string name="confirmation_password">Confirm Password</string>
+    <string name="signUp_ward">Ward Number</string>
+    <string name="signUp_place">Place Name</string>
+    <string name="signUp_street">Street Name</string>
+    <string name="signUp_house">House Number</string>
+    <string name="signUp_district">District</string>
+    <string name="signUp_zone">Zone</string>
+    <string name="signUp_landline">Phone (Residency)</string>
+    <string name="signUp_mobile">Phone (Mobile)</string>
+    <string name="signUp_reference">Reference</string>
+    <string name="signUp_facebook">Facebook Ad</string>
+    <string name="signUp_google">Google Search</string>
+    <string name="signUp_friends">Friends/Relatives</string>
+    <string name="signUp_other">Other</string>
+    <string name="signUp_terms">By Signing up you are agreeing to our</string>
+    <string name="settings_general">General Settings</string>
+    <string name="settings_address">Address Settings</string>
+    <string name="settings_contacts">Contact Settings</string>
+    <string name="message">Write your Enquiry Here</string>
+    <string name="send_message">Send</string>
+    <string name="med_name">Medicine/Product Name</string>
+    <string name="number_of_items">Quantity (20=20 tabs/pills for tablets and pills)</string>
+    <string name="med_type">Medicine Type</string>
+    <string name="type_one">One Time</string>
+    <string name="type_regular">Regular</string>
+    <string name="item_added">Add to Cart</string>
+    <string name="forgot_password">Enter the email address you used to register</string>
+    <string name="retrieve">Retrieve Password</string>
+    <string name="order_text">Order</string>
+    <string name="upload_prescription">Order by Uploading Prescription</string>
+    <string name="order_meds">Order Medicines</string>
+    <string name="call_us">Call us directly</string>
+    <string name="prescription_approve">Approve</string>
+    <string name="upload_prescription_button">Upload Prescription</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm Password</string>
+    <string name="save_time">SAVE TIME</string>
+    <string name="cart_quantity">Quantity</string>
+    <string name="cart_med_type">Medicine Type</string>
+    <string name="edit_button">edit</string>
+    <string name="remove_button">remove</string>
+    <string name="order_date">Order Date</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="discount_amount">Discount Amount</string>
+    <string name="net_amount">Net Amount</string>
+    <string name="view_items">View Items</string>
+    <string name="rate">Rate</string>
+    <string name="order_quantity">No. of Orders</string>
+    <string name="view_details">View Details</string>
+    <string name="trustworthy">TRUSTWORTHY</string>
+    <string name="prescription_edit">edit prescription</string>
+    <string name="unsuccesfull_logout">Couldn\'t logout,Please try again later.</string>
+    <string name="confirm_order">Are you sure you want to re-order these items?</string>
+
+
+</resources>

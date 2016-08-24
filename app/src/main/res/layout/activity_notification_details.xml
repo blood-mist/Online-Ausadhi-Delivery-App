@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dac.onlineausadhi.activities.NotificationDetailsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/refillToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button_colors"
+        android:theme="@style/ToolbarStyle">
+    <Button
+        android:padding="10dp"
+        android:id="@+id/refillOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/button_pressed_indicator"
+        android:drawableLeft="@drawable/refill"
+        android:text=" refill"
+        android:textColor="@android:color/white" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/refillLists"
+        android:layout_below="@+id/refillToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List of medicines that need to be refilled for next month:"
+        android:textStyle="bold"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/refillLists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleList"
+        android:padding="10dp"
+        android:scrollbars="none"/>
+
+</RelativeLayout>
